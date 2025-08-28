@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Tiro+Bangla:ital@0;1&display=swap");
+
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.custom-gradient {
+  background: linear-gradient(90deg, #013223 0%, #006747 50%, #013223 100%);
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.tiro-bangla-regular {
+  font-family: "Tiro Bangla", serif;
+  font-style: normal;
+}

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Service Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="shadow-sm px-6 py-4 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full flex items-center justify-center">
+            <img src="./assets/logo.png" alt="" />
+          </div>
+          <div>
+            <p class="text-lg text-green-800 manrope-bold">Emergency Service</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex items-center space-x-1 bg-[#edfff1] px-6 py-3 rounded-full inter-bold"
+          >
+            <span class="text-sm font-bold">0</span>
+            <i class="fas fa-heart text-red-500"></i>
+          </div>
+          <div
+            class="flex items-center space-x-1 bg-[#edfff1] px-6 py-3 rounded-full inter-bold"
+          >
+            <span class="text-sm font-bold">100</span>
+            <i class="fas fa-coins text-yellow-500"></i>
+          </div>
+          <button
+            class="bg-[#00a73e] rounded-2xl text-white inter-bold px-4 py-2 rounded-full text-sm font-bold"
+          >
+            2 Copy
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="custom-gradient text-white py-12">
+      <div class="container mx-auto text-center px-6">
+        <div
+          class="w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center"
+        >
+          <img src="./assets/logo-dark.png" alt="" />
+        </div>
+        <h2 class="text-3xl font-bold mb-4 tiro-bangla-regular">
+          জরুরি সেবা ডিরেক্টরি
+        </h2>
+        <p class="text-green-100 max-w-2xl mx-auto inter-bold">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="bg-[#f5fff6]">
+      <div class="container mx-auto px-6 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            class="lg:order-1 order-2 col-span-1 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            <!-- National Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                জাতীয় জরুরি সেবা
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">
+                National Emergency
+              </p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >999</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >সার্বজনীন</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Police Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                পুলিশ
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">Police</p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >999</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >পুলিশ</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Fire Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                ফায়ার সার্ভিস
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">Fire Service</p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >999</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >সার্বজনীন</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Ambulance Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                অ্যাম্বুলেন্স
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">Ambulance</p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >1994-999999</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >স্বাস্থ্য</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Women & Child Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                নারী ও শিশু সহায়তা
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">
+                Women & Child Helpline
+              </p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >109</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >সহায়তা</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- Corruption Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                দুদক
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">
+                Anti-Corruption
+              </p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >106</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >সরকারি</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Electricity Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/emergency.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                বিদ্যুৎ বিভ্রাট
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">
+                Electricity Outage
+              </p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >999</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >বিদ্যুৎ</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Brac Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img src="./assets/brac.png" width="24" height="24" alt="" />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                ব্র্যাক
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">Brac</p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >16445</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >এনজিও</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+            <!-- Railway Emergency -->
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-start justify-between mb-4">
+                <div
+                  class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/Bangladesh-Railway.png"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                </div>
+                <i
+                  class="far fa-heart text-gray-400 cursor-pointer hover:text-red-500"
+                ></i>
+              </div>
+              <h3
+                class="font-semibold text-2xl text-gray-800 mb-1 tiro-bangla-regular"
+              >
+                বাংলাদেশ রেলওয়ে
+              </h3>
+              <p class="text-sm text-gray-500 mb-4 inter-bold">
+                Bangladesh Railway
+              </p>
+              <div class="mb-4 flex flex-col">
+                <span class="text-2xl inter-bold font-bold text-gray-800"
+                  >163</span
+                >
+                <span
+                  class="bg-gray-100 text-gray-600 px-2 py-1 tiro-bangla-regular rounded-full text-sm mt-1 self-start"
+                  >পরিবহন</span
+                >
+              </div>
+              <div class="flex space-x-2">
+                <button
+                  class="flex-1 border border-gray-300 text-gray-700 py-2 px-3 rounded-xl text-sm hover:bg-gray-50"
+                >
+                  <i class="far fa-copy mr-1"></i> Copy
+                </button>
+                <button
+                  class="flex-1 bg-[#00a73e] text-white py-2 px-3 rounded-xl text-sm hover:bg-green-900"
+                >
+                  <i class="fas fa-phone mr-1"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="lg:order-2 order-1 col-span-1">
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+              <div class="flex items-center justify-between mb-6">
+                <div class="flex items-center space-x-2">
+                  <i class="fas fa-history text-gray-500"></i>
+                  <h3 class="font-semibold text-gray-800">Call History</h3>
+                </div>
+                <button
+                  class="bg-green-500 text-white px-3 py-1 rounded text-sm"
+                >
+                  Clear
+                </button>
+              </div>
+              <div class="space-y-4">
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      Fire Service Number
+                    </p>
+                    <p class="text-gray-500 text-xs">999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      National Emergency Number
+                    </p>
+                    <p class="text-gray-500 text-xs">1994-999999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      Fire Service Number
+                    </p>
+                    <p class="text-gray-500 text-xs">999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      Bangladesh Railway Helpline
+                    </p>
+                    <p class="text-gray-500 text-xs">999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      Fire Service Number
+                    </p>
+                    <p class="text-gray-500 text-xs">999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+                <div class="flex justify-between items-start">
+                  <div>
+                    <p class="font-medium text-gray-800 text-sm">
+                      Anti-Corruption Helpline
+                    </p>
+                    <p class="text-gray-500 text-xs">999</p>
+                  </div>
+                  <span class="text-xs text-gray-400">11:36:58 AM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
