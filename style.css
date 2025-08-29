@@ -28,3 +28,24 @@
   font-family: "Tiro Bangla", serif;
   font-style: normal;
 }
+
+.call-history-container {
+  min-height: 200px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* Optional: Style the scrollbar */
+.call-history-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.call-history-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.call-history-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
