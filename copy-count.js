@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
       navigator.clipboard
         .writeText(serviceNumber)
         .then(function () {
-          // Increase copy count
           copyCount++;
           copyCountElement.textContent = copyCount + " Copy";
 
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
           document.execCommand("copy");
           document.body.removeChild(textArea);
 
-          // Increase copy count
           copyCount++;
           copyCountElement.textContent = copyCount + " Copy";
 
