@@ -56,6 +56,14 @@ document.addEventListener("DOMContentLoaded", function () {
   if (coinCountElement) {
     coinCountElement.textContent = coinCount;
   }
-});
 
-console.log("Call scripts loaded successfully");
+  const clearButton = document.getElementById("clear-btn");
+  console.log("Clear button found:", clearButton); // Debug line
+
+  if (clearButton) {
+    clearButton.addEventListener("click", function () {
+      console.log("Clear button clicked!"); // Debug line
+      callHistoryContainer.innerHTML = "";
+    });
+  }
+});
