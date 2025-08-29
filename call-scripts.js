@@ -58,11 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const clearButton = document.getElementById("clear-btn");
-  console.log("Clear button found:", clearButton); // Debug line
+  console.log("Clear button found:", clearButton);
 
   if (clearButton) {
     clearButton.addEventListener("click", function () {
-      console.log("Clear button clicked!"); // Debug line
       callHistoryContainer.innerHTML = "";
     });
   }
